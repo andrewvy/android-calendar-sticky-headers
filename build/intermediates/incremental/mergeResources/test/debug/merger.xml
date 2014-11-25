@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="2.5.2"><source path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/exploded-aar/se.emilsjolander/stickylistheaders/2.5.2/res"><file path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/exploded-aar/se.emilsjolander/stickylistheaders/2.5.2/res/values/values.xml" qualifiers=""><declare-styleable name="StickyListHeadersListView">
+
+        <!-- View attributes -->
+        <attr name="android:clipToPadding"/>
+        <attr name="android:scrollbars"/>
+        <attr name="android:overScrollMode"/>
+        <attr name="android:padding"/>
+        <attr name="android:paddingLeft"/>
+        <attr name="android:paddingTop"/>
+        <attr name="android:paddingRight"/>
+        <attr name="android:paddingBottom"/>
+
+        <!-- ListView attributes -->
+        <attr name="android:fadingEdgeLength"/>
+        <attr name="android:requiresFadingEdge"/>
+        <attr name="android:cacheColorHint"/>
+        <attr name="android:choiceMode"/>
+        <attr name="android:drawSelectorOnTop"/>
+        <attr name="android:fastScrollEnabled"/>
+        <attr name="android:fastScrollAlwaysVisible"/>
+        <attr name="android:listSelector"/>
+        <attr name="android:scrollingCache"/>
+        <attr name="android:scrollbarStyle"/>
+        <attr name="android:divider"/>
+        <attr name="android:dividerHeight"/>
+        <attr name="android:transcriptMode"/>
+
+        <!-- StickyListHeaders attributes -->
+        <attr format="boolean" name="hasStickyHeaders"/>
+        <attr format="boolean" name="isDrawingListUnderStickyHeader"/>
+    </declare-styleable></file></source></dataSet><dataSet config="debug"><source path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res"><file name="calendar_text_selector" path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res/color/calendar_text_selector.xml" qualifiers="" type="color"/><file name="calendar_bg_selector" path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res/drawable/calendar_bg_selector.xml" qualifiers="" type="drawable"/><file name="month" path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res/layout/month.xml" qualifiers="" type="layout"/><file name="month_header" path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res/layout/month_header.xml" qualifiers="" type="layout"/><file name="week" path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res/layout/week.xml" qualifiers="" type="layout"/><file path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res/values/values.xml" qualifiers=""><color name="calendar_inactive_month_bg">#ffd7d9db</color><color name="calendar_text_unselectable">#7f778088</color><style name="CalendarTitle">
+    <item name="android:textSize">@dimen/calendar_text_medium</item>
+    <item name="android:textStyle">bold</item>
+  </style><color name="calendar_selected_range_bg">#ff96caff</color><string name="month_name_format">MMMM yyyy</string><color name="calendar_divider">#ffbababa</color><string name="invalid_date">Date must be between %1$s and %2$s.</string><color name="calendar_text_inactive">#40778088</color><dimen name="calendar_month_title_bottommargin">4dp</dimen><declare-styleable name="CalendarPickerView"><attr name="android:background"/><attr format="color" name="dividerColor"/><attr format="reference" name="dayBackground"/><attr format="color" name="dayTextColor"/><attr format="color" name="titleTextColor"/><attr format="boolean" name="displayHeader"/><attr format="color" name="headerTextColor"/></declare-styleable><color name="calendar_text_active">#ff778088</color><color name="calendar_bg">#ffffffff</color><dimen name="calendar_text_small">14sp</dimen><string name="day_name_format">EEE</string><style name="CalendarCell.DayHeader">
+    <item name="android:textSize">@dimen/calendar_text_small</item>
+  </style><dimen name="calendar_month_topmargin">16dp</dimen><color name="calendar_text_selected">#ffffffff</color><dimen name="calendar_day_headers_paddingbottom">4dp</dimen><style name="CalendarCell">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textAlignment">center</item>
+  </style><color name="calendar_highlighted_day_bg">#ccffcc</color><style name="CalendarCell.CalendarDate">
+    <item name="android:textSize">@dimen/calendar_text_medium</item>
+    <item name="android:clickable">true</item>
+    <item name="android:textStyle">bold</item>
+  </style><color name="calendar_selected_day_bg">#ff379bff</color><color name="calendar_active_month_bg">#fff5f7f9</color><declare-styleable name="calendar_cell"><attr format="boolean" name="state_selectable"/><attr format="boolean" name="state_current_month"/><attr format="boolean" name="state_today"/><attr format="boolean" name="state_range_first"/><attr format="boolean" name="state_range_middle"/><attr format="boolean" name="state_range_last"/><attr format="boolean" name="state_highlighted"/></declare-styleable><dimen name="calendar_text_medium">18sp</dimen></file><file path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res/values-v9/values.xml" qualifiers="v9"><string name="month_name_format">LLLL yyyy</string></file></source></dataSet><dataSet config="main"><source path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/src/androidTest/res"/><source path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/generated/res/rs/test/debug"/><source path="/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/generated/res/generated/test/debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="StickyListHeadersListView"><attr name="android:clipToPadding"/><attr name="android:scrollbars"/><attr name="android:overScrollMode"/><attr name="android:padding"/><attr name="android:paddingLeft"/><attr name="android:paddingTop"/><attr name="android:paddingRight"/><attr name="android:paddingBottom"/><attr name="android:fadingEdgeLength"/><attr name="android:requiresFadingEdge"/><attr name="android:cacheColorHint"/><attr name="android:choiceMode"/><attr name="android:drawSelectorOnTop"/><attr name="android:fastScrollEnabled"/><attr name="android:fastScrollAlwaysVisible"/><attr name="android:listSelector"/><attr name="android:scrollingCache"/><attr name="android:scrollbarStyle"/><attr name="android:divider"/><attr name="android:dividerHeight"/><attr name="android:transcriptMode"/><attr format="boolean" name="hasStickyHeaders"/><attr format="boolean" name="isDrawingListUnderStickyHeader"/></declare-styleable><declare-styleable name="calendar_cell"><attr format="boolean" name="state_selectable"/><attr format="boolean" name="state_current_month"/><attr format="boolean" name="state_today"/><attr format="boolean" name="state_range_first"/><attr format="boolean" name="state_range_middle"/><attr format="boolean" name="state_range_last"/><attr format="boolean" name="state_highlighted"/></declare-styleable><declare-styleable name="CalendarPickerView"><attr name="android:background"/><attr format="color" name="dividerColor"/><attr format="reference" name="dayBackground"/><attr format="color" name="dayTextColor"/><attr format="color" name="titleTextColor"/><attr format="boolean" name="displayHeader"/><attr format="color" name="headerTextColor"/></declare-styleable></configuration></mergedItems></merger>

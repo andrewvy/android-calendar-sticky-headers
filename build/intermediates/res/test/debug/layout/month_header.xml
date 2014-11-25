@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/header"
+		android:layout_width="match_parent"
+		android:layout_height="21dp"
+		android:layout_margin="0dp"
+		android:singleLine="true"
+		android:textAllCaps="true"
+		android:textColor="@android:color/black"
+		android:textIsSelectable="false" />
+
+</FrameLayout>
+<!-- From: file:/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/src/main/res/layout/month_header.xml --><!-- From: file:/Users/andrewvy/AndroidStudioProjects/Todo/android-times-square/build/intermediates/bundles/debug/res/layout/month_header.xml -->
